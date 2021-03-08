@@ -1,0 +1,13 @@
+from time import sleep
+
+def delay(seconds):
+	print(f"Sleeping for {seconds} second(s)")
+	sleep(seconds)
+
+def main():
+	print('a')
+	delay(seconds=3)
+	print('h')
+
+if __name__ == "__main__":
+	main()
